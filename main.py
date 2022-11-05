@@ -48,7 +48,7 @@ while True:
         if cows > 1 or cows == 0:
             cows_tr = "cows"
 
-        if bulls > 1:
+        if bulls > 1 or bulls == 0:
             bulls_tr = "bulls"
 
         print(cows_tr, ":", cows, ",", bulls_tr, ":", bulls)
