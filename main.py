@@ -24,7 +24,12 @@ bulls_tr = "bull"
 
 #The game
 while True:
-    guess = input("\nPlease enter a 4 digit number: ")
+    try:
+        guess = int(input("\nPlease enter a 4 digit number: "))
+    except ValueError:
+        print("Please enter a number!")
+        guess = "    "
+    guess = str(guess)
     no_of_guesses += 1
     if no_of_guesses>1:
         guess_tr = "guesses"
