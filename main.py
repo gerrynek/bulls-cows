@@ -13,7 +13,6 @@ input("\nPress Enter when you are ready\n")
 #Initialize variables
 start = time.time()
 number = uniqueFourDigitNumber()
-print(number)
 bulls = 0
 cows = 0
 no_of_guesses = 0
